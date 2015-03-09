@@ -6,10 +6,14 @@
 //  Copyright (c) 2015 MarakerSoft. All rights reserved.
 //
 
+
+
 #import <UIKit/UIKit.h>
+#import "SampleProtocol.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<SampleProtocolDelegate>
+{
+    IBOutlet UILabel *myLabel; // it's __strong
+    __weak IBOutlet UILabel *testi;
+}
 @end
-

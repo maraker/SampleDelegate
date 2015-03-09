@@ -14,6 +14,7 @@
 		C5278D961AAE2A5A00EE8029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5278D951AAE2A5A00EE8029 /* Images.xcassets */; };
 		C5278D991AAE2A5A00EE8029 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5278D971AAE2A5A00EE8029 /* LaunchScreen.xib */; };
 		C5278DA51AAE2A5A00EE8029 /* SampleDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5278DA41AAE2A5A00EE8029 /* SampleDelegateTests.m */; };
+		C5278DB01AAE2AAF00EE8029 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C5278DAF1AAE2AAF00EE8029 /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C5278D9E1AAE2A5A00EE8029 /* SampleDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5278DA31AAE2A5A00EE8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5278DA41AAE2A5A00EE8029 /* SampleDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleDelegateTests.m; sourceTree = "<group>"; };
+		C5278DAE1AAE2AAF00EE8029 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		C5278DAF1AAE2AAF00EE8029 /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C5278D951AAE2A5A00EE8029 /* Images.xcassets */,
 				C5278D971AAE2A5A00EE8029 /* LaunchScreen.xib */,
 				C5278D881AAE2A5A00EE8029 /* Supporting Files */,
+				C5278DAE1AAE2AAF00EE8029 /* SampleProtocol.h */,
+				C5278DAF1AAE2AAF00EE8029 /* SampleProtocol.m */,
 			);
 			path = SampleDelegate;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				C5278D911AAE2A5A00EE8029 /* ViewController.m in Sources */,
 				C5278D8E1AAE2A5A00EE8029 /* AppDelegate.m in Sources */,
 				C5278D8B1AAE2A5A00EE8029 /* main.m in Sources */,
+				C5278DB01AAE2AAF00EE8029 /* SampleProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

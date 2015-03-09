@@ -14,14 +14,26 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    SampleProtocol *sampleProtocol = [[SampleProtocol alloc]init];
+    sampleProtocol.delegateToController = self;
+    [testi setText:@"Processing..."];
+    [sampleProtocol startSampleProcess];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Sample protocol delegate
+-(void)processCompleted{
+    [testi setText:@"Process Completed"];
+}
+
 
 @end
